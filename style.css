@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;300;500&family=Bevan:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Telugu', sans-serif;
+    
+}
+
+/*Elements*/
+.container{
+    max-width: 1140px;
+    height: auto;
+    margin: auto;
+}
+
+/*Header*/
+header{
+    display: flex;
+    
+    overflow: hidden;
+}
+.header-body{
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:inherit;
+    height: 100px;
+    background-color:rgba(0, 0, 0) ;
+}
+nav .logo img {
+    width: 70px;
+    height: 70px;
+    margin: 0px 20px;
+    background-position: center;
+    background-size: cover;
+}
+.menu-icon{
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    cursor: pointer;
+}
+.menu-icon div {
+    width: 40px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #F7AB48;
+}
+/*Banner Header*/
+
+.banner-text{
+    width: 100%;
+    height:700px;
+    background-color: rgba( 0, 0, 0,0.8);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.banner-text h6 {
+    color: #AD7832;
+    font-size: 25px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    cursor:default;
+}
+.banner-text h1{
+    font-size: 70px;
+    font-family: 'Anek Telugu';
+    text-transform: uppercase;
+    font-weight: 400;
+    cursor: default;
+}
+.banner-text a {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.233);
+    border: 1px solid #AD7832;
+    text-align: center;
+    font-weight: 300;
+    padding: 5px 10px;
+    min-width: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.banner-text a:hover{
+    background-color: #AD7832;
+}
+
+/*Aside*/
+.menu-oppened{
+    width:250px ;
+}
+aside{
+    
+    width: 0px;
+    height: 800px;
+    transition: all 0.3s ease-in-out;
+    background-color: #F7AB48;
+ }
+ aside ul {
+    list-style: none;
+ }
+ aside li{
+    padding: 20px;
+    text-align: center;
+ }
+ aside li:hover {
+    background-color: #EBA244;
+    color: white;
+    cursor: pointer;
+ }
+/*blog-area*/
+.blog-sec{
+    padding: 60px;
+}
+.blog-area {
+    max-width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    
+}
+.post-welcome{
+    max-width: ;
+}
+.title h2{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size:28px ;
+    
+    
+}
+.title-bar{
+    max-width: 50px;
+    height: 3px;
+    background-color: #EBA244;
+    margin-top: -5px;
+    margin-bottom: 30px
+}
+.post-welcome .post{
+    max-width: 600px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    color: rgb(85, 85, 85);
+    
+}
+.post{
+    padding-top: 40px;
+    font-size: 19px;
+}
+/*Slide*/
+.slide-box{
+    
+    max-width: 380px;
+    height: 300px;
+    
+}
+.slide-container{
+    display: flex;
+    overflow-x: hidden;
+}
+.controls{
+    font-size: 25px;
+    position: absolute;
+    width: 369px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 125px;
+}
+.controls button{
+    text-decoration: none;
+    border:1px solid #F7AB48;
+    background-color: #F7AB48;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: #080502;
+    cursor: pointer;
+}
+.controls a:hover{
+    color: white;
+}
+
+.sliders{
+    width: auto;
+    height: auto;
+    display: flex;
+    transition: all 0.5s ease-in-out;
+}
+.slide{
+    margin: 35px;
+}
+.post-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    
+}
+.post-box .post-img img{
+    width: 320px;
+    height: 220px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(49, 49, 49);
+}
+.post-box .post-title{
+    text-align: center;
+    font-weight: bold;
+    color: #AD7832;
+    cursor: default;
+    font-size: 25px;
+    
+}
+
+/*Tabela area*/
+
+.prices{
+    padding: 30px;
+    font-size: 25px;
+    background-color: #EBA244;
+}
+.price-area{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    
+}
+table{
+    height: 400px;
+    width: 800px;
+    background-color: #EBA244;
+}
+thead th{
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+table td{
+    padding: 6px;
+    width: 400px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.price-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-icon span{
+    height: 30px;
+}
+.price-icon img{
+    height: 22px;
+}
+.price-serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-serv img{
+    height: 22px;
+}
+.price-serv span{
+    height: 30px;
+    padding-left: 5px;
+}
+
+/*Seção de agendamento*/
+.agendamento{
+    background-image: url(agnd-wp.png);  
+    color: white;  
+}
+.filter{
+    background-color: rgba( 0, 0, 0,0.5);
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.agnd-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.agnd-copy h3{
+    font-size: 60px;
+}
+
+/*Contatos*/
+.agnd-bnt{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tell{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tell p{
+    font-size: 35px;
+    height: 50px;
+    padding-left: 10px;
+}
+.tell img{
+    height: 50px;
+}
+.wats img{
+    height: 80px;
+}
+
+/*Shop*/
+.section-shop{
+    background-color: white;
+    padding: 30px;
+}
+.shop{
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.img-btn{
+    max-width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img-btn button{
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    color: white;
+    background-color: #EBA244;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.img-btn button:hover{
+    background-color: rgb(26, 208, 23);
+}
+.img-btn img {
+    max-width: 420px;
+    max-height: 420px;
+}
+
+/**Footer*/
+
+
+footer{
+    background-color: #080502;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h4{
+    margin: auto;
+
+}
+
+/*mobile*/
+@media(max-width:1200px) {
+    .blog-area{
+        flex-direction: column;
+    }
+    .post-welcome{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .slide-box{
+        margin: auto;
+    }
+    .shop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+}
+@media(max-width:1070px){
+    .banner-text h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .banner-text h6{
+        font-size: 20px;
+        text-align: center;
+    }
+    .blog-sec{
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+    .post-welcome .post{
+        margin: auto;
+        padding: 0;
+    }
+}
+@media(max-width:600px){
+    .agnd-copy h3{
+        font-size: 30px;
+    }
+    .agnd-bnt{
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .agnd-bnt .tell{
+        margin: 30px 0px;
+    }
+    
+}
+@media(max-width:600px){
+    .img-btn img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media(max-width:400px){
+    .blog-sec .title{
+        width: 200px;
+        
+    }
+    .blog-sec .title h2{
+        font-size: 20px;
+    }
+    .blog-sec .post{
+        width: 300px;
+        margin: 0;
+    }
+    .blog-sec .post-welcome{
+        width: 350px;
+    }
+    .blog-sec .slide-box{
+        margin-top: 20px;
+        margin: -20px;
+        width: 350px;
+    }
+    .blog-sec .slide-box .title{
+        display: none;
+    }
+    .agnd-body .agnd-copy h3{
+        font-size: 24px;
+    }
+    .wats img{
+        height: 50px;
+    }
+    .tell p{
+        font-size: 35px;
+        height: 40px;
+        padding-left: 10px;
+    }
+    .tell img{
+        height: 40px;
+    }
+    footer h4{
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.Barbearia-1-hex { color: #AD7832; }
+.Barbearia-2-hex { color: #080502; }
+.Barbearia-3-hex { color: #EBA244; }
+.Barbearia-4-hex { color: #F7AB48; }
+.Barbearia-5-hex { color: #D1913D; }
+
